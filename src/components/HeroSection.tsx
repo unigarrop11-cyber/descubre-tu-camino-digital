@@ -53,23 +53,25 @@ export default function HeroSection() {
 
           {/* CTA */}
           <div className="flex flex-col items-center gap-3 lg:items-start">
-            <button
-              type="button"
-              className={cn(
-                "inline-flex items-center justify-center gap-2",
-                "h-12 min-h-[44px] px-8 rounded-full",
-                "bg-[#E8B4B8] text-[#FFFBF7] font-['Inter'] font-semibold",
-                "text-sm md:text-base tracking-wider",
-                "shadow-sm hover:shadow-md hover:brightness-105",
-                "transition-all duration-200",
-                "focus-visible:outline-none focus-visible:ring-2",
-                "focus-visible:ring-[#E8B4B8] focus-visible:ring-offset-2",
-                "focus-visible:ring-offset-[#FDF8F4]"
-              )}
-            >
-              QUIERO DAR MI PRIMER PASO
-              <ArrowRight className="h-4 w-4" aria-hidden="true" />
-            </button>
+          <a
+            href="https://pay.hotmart.com/S107592823S?off=5dewupr6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cn(
+              "inline-flex items-center justify-center gap-2",
+              "h-12 min-h-[44px] px-8 rounded-full",
+              "bg-[#E8B4B8] text-[#FFFBF7] font-['Inter'] font-semibold",
+              "text-sm md:text-base tracking-wider",
+              "shadow-sm hover:shadow-md hover:brightness-105",
+              "transition-all duration-200",
+              "focus-visible:outline-none focus-visible:ring-2",
+              "focus-visible:ring-[#E8B4B8] focus-visible:ring-offset-2",
+              "focus-visible:ring-offset-[#FDF8F4]"
+            )}
+          >
+            QUIERO DAR MI PRIMER PASO
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </a>
 
             {/* microtexto */}
             <p

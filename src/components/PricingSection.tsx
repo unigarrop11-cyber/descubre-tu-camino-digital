@@ -71,8 +71,10 @@ export default function PricingSection() {
           </p>
 
           {/* CTA */}
-          <button
-            type="button"
+          <a
+            href="https://pay.hotmart.com/S107592823S?off=5dewupr6"
+            target="_blank"
+            rel="noopener noreferrer"
             className={cn(
               "mt-6 inline-flex items-center justify-center gap-2",
               "h-12 min-h-[44px] w-full max-w-xs rounded-full",
@@ -87,7 +89,7 @@ export default function PricingSection() {
           >
             QUIERO DAR MI PRIMER PASO
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </button>
+          </a>
         </div>
 
         {/* ── Bloque de garantía ── */}
